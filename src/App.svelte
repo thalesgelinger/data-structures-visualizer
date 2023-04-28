@@ -1,11 +1,11 @@
 <script lang="ts">
     import "./app.css";
-    import Header from "./Header.svelte"
+    import DataStructures from "./lib/DataStructures.svelte";
 </script>
 
-<Header/>
+<main class="bg-primary h-screen flex items-center justify-center">
+    <DataStructures />
+</main>
 
 <style lang="postcss">
 </style>
-
-

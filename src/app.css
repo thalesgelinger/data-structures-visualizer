@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-shape {
+      @apply w-4/5 h-12 border rounded-lg font-bold self-center flex justify-center items-center 
+      text-lg 
+  }
+  .btn-conector {
+      @apply rounded-br-none rounded-tr-none after:content-[''] after:h-12 after:w-4 after:bg-methods after:absolute after:-right-4 after:border-t after:border-b
+  }
+}
